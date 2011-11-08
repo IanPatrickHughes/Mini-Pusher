@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <buildprojects>
-  <project title="{Your Project Name}">
-    <essthreebucket>{Your BUCKET NAME}</essthreebucket>
-    <targetstaticdir>{The top tier directory where all static web content lives}</targetstaticdir>
+  <project title="everynobody">
+    <essthreebucket>everynobody</essthreebucket>
+    <targetstaticdir>D:\Depot\EverynobodyMVC\src\FunnelWeb.Web\Themes\EveryNobody\Test\Content</targetstaticdir>
     <!-- The Path to Your AjaxMin might not be too bad -->
     <minifierdir>C:\Program Files (x86)\Microsoft\Microsoft Ajax Minifier\AjaxMin.exe</minifierdir>
-    <websiteassembly>{Path to the website DLL to get the updated Assembly Version}</websiteassembly>
+    <websiteassembly>D:\Depot\EverynobodyMVC\src\FunnelWeb.Web\bin\FunnelWeb.Web.dll</websiteassembly>
   </project>
 </buildprojects>
