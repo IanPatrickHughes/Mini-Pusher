@@ -1,3 +1,3 @@
-build/common/app.config
-build/common/projectvalues.xml
+*.config
+*.xml
 build/common/model/*
