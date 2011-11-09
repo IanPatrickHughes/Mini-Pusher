@@ -1,6 +1,5 @@
 
-Mini-Pusher - Powershell scripts for minimizing static JS/CSS and Pushing to S3
-
+Mini-Pusher | Powershell scripts for minimizing static JS/CSS and Pushing to S3
 ===============================================================================
 
 What?
@@ -15,8 +14,8 @@ No, why do this at all?
 -----------------------
 Yeah, there are a ton of options out there that minimize and/or combine and version really well. However, most seem to only target a single webserver. If you deploy the code to servers behind a balancer some frameworks that operate at runtime create a new version id which would cause the content to be re-cached if the user was bounced to a different machine.
 
-Additionally, while it might be a better practice to set up CloudFront in a Pull scenario to an origin machine instead of an S3 bucket, my situation (already using S3 for redundant storage) it didn’t make sense. 
-So, like many programming projects: I did this out of personally necessity.
+Additionally, while it might be a better practice to set up CloudFront in a Pull scenario to an origin machine instead of an S3 bucket, my situation (already using S3 for redundant storage) it did not make sense. 
+So, like many programming projects: I did this out of personal necessity.
 
 What Do You Need to Run This?
 -----------------------------
